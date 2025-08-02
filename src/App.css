@@ -92,3 +92,12 @@ button:hover {
     transform: translateY(0);
   }
 }
+select,
+select option {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+select:focus {
+  box-shadow: 0 0 0 2px #00000033;
+}
+
