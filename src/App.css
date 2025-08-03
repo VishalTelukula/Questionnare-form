@@ -101,3 +101,52 @@ select:focus {
   box-shadow: 0 0 0 2px #00000033;
 }
 
+.mobile-input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.country-code {
+  padding: 0.5rem 0.75rem;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  font-weight: bold;
+}
+/* src/components/Input.css or src/App.css */
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.required {
+  color: red;
+}
+
+.mobile-input-wrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid #080707;
+  padding: 6px 10px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.mobile-prefix {
+  margin-right: 8px;
+  color: black;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.mobile-input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 1rem;
+}
