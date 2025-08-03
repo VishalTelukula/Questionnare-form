@@ -1,12 +1,53 @@
-# React + Vite
+# 🧾 Questionnaire Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive questionnaire form built using **React** and **Vite**. The form captures basic user information such as full name, age, mobile number, date of birth, and location.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Click here to view the deployed app](https://VishalTelukula.github.io/Questionnare-form)
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img width="680" height="280" alt="Questionnare Form" src="https://github.com/user-attachments/assets/4ec9bbce-1e0f-4277-863e-84cb08f12e43" />
+ <!-- Add a preview image if you have one -->
+
+## 🛠️ Features
+
+- ✅ Built with **React** and **Vite**
+- ✅ Clean, minimal UI
+- ✅ Form validation for required fields
+- ✅ Responsive layout
+- ✅ Deployed on GitHub Pages
+
+## 📂 Folder Structure
+
+```bash
+Questionnare-form/
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   └── main.jsx
+├── dist/               # Production build (auto-generated)
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## 🧪 Installation & Running Locally
+
+```bash
+git clone https://github.com/VishalTelukula/Questionnare-form.git
+cd Questionnare-form
+npm install
+npm run dev
+```
+## 📦 Tech Stack
+
+- 🧾 **HTML** – Structure of the questionnaire form  
+- 🎨 **CSS** – Styling and layout  
+- ✨ **JavaScript** – Logic and interactivity  
+- ⚛️ **React** – Component-based UI framework  
+- ⚡ **Vite** – Lightning-fast development & build tool  
+- 🧑‍💻 **GitHub Pages** – For hosting the project
+
